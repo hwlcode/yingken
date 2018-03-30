@@ -1,0 +1,76 @@
+.section {
+  text-align: center;
+  font: 50px "Microsoft Yahei";
+  color: #808080;
+}
+.section h3 {
+  font-size: 30px;
+}
+.section h2{
+  color: #333;
+  font-size: 40px;
+}
+.section p {
+  font-size: 14px;
+}
+.tel{
+  color: #fff;
+  font-size: 16px;
+  line-height: 50px;
+  margin-right: 20px;
+}
+.nav{
+  margin: 0;
+  width: 100%;
+  /*position: relative;*/
+  height: 50px; 
+  background: #1bbc9b;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 70;
+}
+
+#menu {
+  padding: 0;
+  list-style-type: none;
+  width: 850px;
+  margin: 0 auto;
+}
+#menu li {
+  float: left;
+  margin: 0 10px 0 0;
+  font-size: 14px;
+}
+.container{
+  width: 990px; 
+  margin: 0 auto;
+}
+#menu a {
+  float: left;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#menu .active a {
+  color: #333;
+  background-color: rgba(255,255,255,0.2);
+}
+.clearfix:before,
+.clearfix:after{
+  display: table;
+  content: " ";
+}
+.clearfix:after{
+  clear: both;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.w50{
+  width: 50%;
+  text-align: center;
+}
